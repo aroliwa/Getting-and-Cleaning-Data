@@ -26,6 +26,7 @@ sum(dat$Zip*dat$Ext,na.rm=T) #36534720
 ########################################
 
 library(XML)
+library(dplyr)
 xmlsource <- "http://d396qusza40orc.cloudfront.net/getdata%2Fdata%2Frestaurants.xml"
 doc <- xmlParse(file = xmlsource)
 rootNode <- xmlRoot(doc)
