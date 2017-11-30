@@ -47,14 +47,3 @@ start <- Sys.time()
 DT[,mean(pwgtp15),by=SEX]
 end <- Sys.time() - start
 end #0.004005909
-
-
-
-
-
-
-
-
-
-
-
