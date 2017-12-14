@@ -56,7 +56,7 @@ nrow(x1)
 
 x2 <- amzn.df %>%
     mutate(dat = row.names(amzn.df), dat = ymd(dat)) %>%
-    filter(weekdays(dat) == "poniedzia³ek" & year(dat) == 2012)
+    filter(weekdays(dat) == "monday" & year(dat) == 2012)
 nrow(x2)
 
 
